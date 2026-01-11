@@ -17,3 +17,6 @@ exchangerate-api
 1. Clone the repository:
 ```bash
 git clone https://github.com/MITPIT/currency_exchange_app.git
+```
+
+
