@@ -2,7 +2,6 @@
 
 ## Description
 This is a mobile app built with React + Capacitor (via lovable.dev) for converting currencies.
-The drop-down list is behind the "Current rate" section and I had no time to fix the issue.
 
 ## API
 exchangerate-api
