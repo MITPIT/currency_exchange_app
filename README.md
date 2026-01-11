@@ -10,11 +10,12 @@ ExchangeRate-API
 
 1. Press **Code** > **Codespaces**
 2. **Create codespace on main**
-3. Wait for the downloads
+3. Wait for the installs and press any key to exit
 4. Write in the terminal:
 ```bash
 npm install
 ```
+Wait for the install...
 ```bash
 npm run dev
 ```
@@ -32,6 +33,9 @@ npm run dev
 
 ```bash
 git clone https://github.com/MITPIT/currency_exchange_app.git
+```
+```bash
+npx cap add android
 ```
 ```bash
 npm run build

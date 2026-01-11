@@ -81,7 +81,7 @@ export function CurrencyInput({
   };
 
   return (
-    <div className="space-y-2 relative z-[1000]" ref={containerRef}>
+    <div className="space-y-2 relative z-10" ref={containerRef}>
       <Label className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
         {label}
       </Label>
@@ -109,7 +109,7 @@ export function CurrencyInput({
       </div>
 
       {isOpen && (
-        <div className="absolute z-[10000] top-full left-0 right-0 mt-1 bg-popover border border-border rounded-lg shadow-lg overflow-hidden">
+        <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-popover border border-border rounded-lg shadow-lg overflow-hidden">
           {filteredCurrencies.length > 0 ? (
             <ul className="max-h-60 overflow-y-auto py-1">
               {filteredCurrencies.map((currency) => (

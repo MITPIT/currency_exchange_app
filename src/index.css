@@ -137,4 +137,9 @@
   .pt-safe {
     padding-top: env(safe-area-inset-top);
   }
+  .navbar-layer {
+    z-index: 10000 !important;
+    position: sticky; /* or fixed */
+    top: 0;
+  }
 }
