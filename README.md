@@ -1,22 +1,47 @@
 # Currency Exchange App
 
-## Description
-This is a mobile app built with React + Capacitor (via lovable.dev) for converting currencies.
+This is a mobile app built with lovable.dev for converting currencies.
 
 ## API
+
 ExchangeRate-API
 
-## How to Run
+## Run virtually
+
+1. Press **Code** > **Codespaces**
+2. **Create codespace on main**
+3. Wait for the downloads
+4. Write in the terminal:
+```bash
+npm install
+```
+```bash
+npm run dev
+```
+5. Press **Open in Browser**
+
+## Run locally
 
 ### Prerequisites
+
 - Node.js & npm installed
 - Git installed
 - Android Studio installed for running on Android
 
 ### Steps
-1. Clone the repository:
+
 ```bash
 git clone https://github.com/MITPIT/currency_exchange_app.git
 ```
-
-
+```bash
+npm run build
+```
+```bash
+npx cap copy
+```
+```bash
+npx cap sync android
+```
+```bash
+npx cap open android
+```
