@@ -4,7 +4,7 @@
 This is a mobile app built with React + Capacitor (via lovable.dev) for converting currencies.
 
 ## API
-exchangerate-api
+ExchangeRate-API
 
 ## How to Run
 
